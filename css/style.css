@@ -1,0 +1,379 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3,
+h2 {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+/* ----------------------------------HEADER------------------------------ */
+
+header {
+    background-color: #8F8F8F;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.logo {
+    height: 18vh;
+    margin: 10px
+}
+
+.carrito {
+    margin: 10px 30px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+
+.menu {
+    margin: 10px 30px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* --------------------------------SECCION 1------------------------------------------- */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 2.5em;
+}
+
+.portadaFoto {
+    display: flex;
+    padding: 10px;
+}
+
+
+
+/*---------------------------- SECCION 2 ----------------------------------- */
+
+/* .seccionDos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    height: 20vh;
+}
+
+.infoUno {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.infoDos {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoTres {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.tituloInfo {
+    text-align: center;
+} */
+/*---------------------------- GRID SECCION 2 ----------------------------------- */
+.seccionDos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+}
+
+.seccionDos {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    height: 20vh;
+}
+
+.gridUno {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.gridDos {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridTres {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.envio {    display: flex;
+    flex-direction: column;
+    text-align: center;}
+
+.tituloInfo {
+    text-align: center;
+}
+
+
+
+
+
+/*---------------------------SECCION 3-------------------------------------- */
+.seccionTres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border: solid;
+    margin: 20px;
+}
+
+.ropaDestacada {
+    display: flex;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 30px;
+    margin: 30px;
+    border: solid;
+
+}
+
+/* ---------------AYUDA--------------- */
+
+.help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: small;
+}
+
+.helpUno {
+    padding: 20px;
+    margin: 10px;
+    border: solid;
+}
+
+.helpDos {
+    padding: 20px;
+    margin: 10px;
+    border: solid;
+}
+
+.helpTres {
+    padding: 20px;
+    margin: 10px;
+    border: solid;
+}
+
+.helpCuatro {
+    padding: 20px;
+    margin: 10px;
+    border: solid;
+}
+
+/* ------------------------TIENDA--------------------------- */
+.tittleTienda {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.tiendaFoto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    margin: 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto1 foto2 foto3 foto4"
+        "foto5 foto6 foto7 foto8"
+        "foto9 foto10 foto11 foto12";
+}
+
+.foto1 {
+    grid-area: foto1;
+}
+
+.foto2 {
+    grid-area: foto2;
+}
+
+.foto3 {
+    grid-area: foto3;
+}
+
+.foto4 {
+    grid-area: foto4;
+}
+
+.foto5 {
+    grid-area: foto5;
+}
+
+.foto6 {
+    grid-area: foto6;
+}
+
+.foto7 {
+    grid-area: foto7;
+}
+
+.foto8 {
+    grid-area: foto8;
+}
+
+.foto9 {
+    grid-area: foto9;
+}
+
+.foto10 {
+    grid-area: foto10;
+}
+
+.foto11 {
+    grid-area: foto11;
+}
+
+.foto12 {
+    grid-area: foto12;
+}
+
+
+
+
+
+
+/* --------------------FOOTER----------------------- */
+
+footer {
+    display: flex;
+    background-color: #8F8F8F;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+}
+
+/*---------------- COLUM 1 ----------------- */
+.LogoFooter {
+    display: flex;
+    height: 18vh;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.conteinerUno {
+    display: flex;
+    list-style: none;
+}
+
+/*--------------- COLUM 2--------------------------- */
+.conteinerDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+    max-width: 500px;
+    min-width: 100px;
+}
+
+
+
+/*-------------- COLUM 3------------------------ */
+
+.conteinerTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.redesSociales {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ---------------COLUM 4 ------------------------- */
+.conteinerCuatro form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerNews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.derechos {
+    background-color: #8F8F8F;
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 20px
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        height: 10vh;
+    }
+
+    .portadaFoto {
+        display: none;
+    }
+}
