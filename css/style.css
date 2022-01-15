@@ -9,15 +9,13 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-h3,
-h2 {
-    font-family: 'Baloo Bhaijaan 2', cursive;
-}
+h3, h2 {font-family: 'Baloo Bhaijaan 2', cursive;}
 
 /* ----------------------------------HEADER------------------------------ */
 
+
 header {
-    background-color: #8F8F8F;
+    background-image: linear-gradient(to top, #bdc3c7, #2c3e50 );
     height: 20vh;
     display: flex;
     justify-content: space-between;
@@ -32,6 +30,8 @@ ul {
     justify-content: center;
 }
 
+
+
 .logo {
     height: 18vh;
     margin: 10px
@@ -39,22 +39,21 @@ ul {
 
 .carrito {
     margin: 10px 30px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Fauna One', serif;
     font-size: 1.3em;
     text-decoration: none;
     color: black;
-    display: flex;
-}
+    display: flex;}
 
 
 .menu {
     margin: 10px 30px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Fauna One', serif;
     font-size: 1.3em;
     text-decoration: none;
-    color: black;
+    color: black;}
 
-}
+    
 
 /* --------------------------------SECCION 1------------------------------------------- */
 
@@ -271,10 +270,10 @@ h1 {
 
 footer {
     display: flex;
-    background-color: #8F8F8F;
+    background-color: #bdc3c7;
     justify-content: space-between;
     align-items: center;
-    height: 25vh;
+    height: 20vh;
 }
 
 /*---------------- COLUM 1 ----------------- */
@@ -297,8 +296,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 14px;
-    margin: 10px;
+    font-size: 12px;
     max-width: 500px;
     min-width: 100px;
 }
@@ -342,7 +340,7 @@ footer {
 
 
 .derechos {
-    background-color: #8F8F8F;
+    background-image: linear-gradient(to bottom, #bdc3c7, #2c3e50 );
     text-align: center;
     font-family: 'Baloo Bhaijaan 2', cursive;
     padding: 20px
