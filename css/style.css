@@ -9,18 +9,22 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-h3, h2 {font-family: 'Baloo Bhaijaan 2', cursive;}
+h3,
+h2 {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
 
 /* ----------------------------------HEADER------------------------------ */
 
 
 header {
-    background-image: linear-gradient(to top, #bdc3c7, #2c3e50 );
+    background-image: linear-gradient(to top, #bdc3c7, #2c3e50);
     height: 20vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: auto;
+    font-family: 'Fauna One', serif;
 }
 
 
@@ -30,16 +34,20 @@ ul {
     justify-content: center;
 }
 
-a:hover {background-color: black;
-    color: white}
-    
-.menu:hover {background-color: black;
-color: white}
+a:hover {
+    background-color: black;
+    color: white
+}
+
+.menu:hover {
+    background-color: black;
+    color: white
+}
 
 
 .logo {
     height: 18vh;
-    margin: 10px
+margin-left: 5px;
 }
 
 .carrito {
@@ -48,7 +56,8 @@ color: white}
     font-size: 1.3em;
     text-decoration: none;
     color: black;
-    display: flex;}
+    display: flex;
+}
 
 
 .menu {
@@ -56,9 +65,10 @@ color: white}
     font-family: 'Fauna One', serif;
     font-size: 1.3em;
     text-decoration: none;
-    color: black;}
+    color: black;
+}
 
-    
+
 
 /* --------------------------------SECCION 1------------------------------------------- */
 
@@ -70,45 +80,10 @@ h1 {
     font-size: 2.5em;
 }
 
-.portadaFoto {
-    display: flex;
-    padding: 10px;
-}
+.d-block {height: 110vh;}
 
 
 
-/*---------------------------- SECCION 2 ----------------------------------- */
-
-/* .seccionDos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-    height: 20vh;
-}
-
-.infoUno {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.infoDos {
-    display: flex;
-    flex-direction: column;
-}
-
-.infoTres {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-.tituloInfo {
-    text-align: center;
-} */
 /*---------------------------- GRID SECCION 2 ----------------------------------- */
 .grid {
     display: grid;
@@ -122,15 +97,17 @@ h1 {
 .grid__container {
     display: flex;
     flex-direction: column;
-    align-items:stretch;
+    align-items: stretch;
     text-align: center;
     justify-content: space-between;
 }
 
 
-.envio {    display: flex;
+.envio {
+    display: flex;
     flex-direction: column;
-    text-align: center;}
+    text-align: center;
+}
 
 .tituloInfo {
     text-align: center;
@@ -205,68 +182,20 @@ h1 {
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
-.tiendaFoto {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    margin: 20px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "foto1 foto2 foto3 foto4"
-        "foto5 foto6 foto7 foto8"
-        "foto9 foto10 foto11 foto12";
+.card-title {}
+
+.card-img-top {
+    height: 40vh;
+    width: 35vh;
 }
 
-.foto1 {
-    grid-area: foto1;
-}
+.card-body { display: flex;
+flex-direction: column;}
 
-.foto2 {
-    grid-area: foto2;
-}
-
-.foto3 {
-    grid-area: foto3;
-}
-
-.foto4 {
-    grid-area: foto4;
-}
-
-.foto5 {
-    grid-area: foto5;
-}
-
-.foto6 {
-    grid-area: foto6;
-}
-
-.foto7 {
-    grid-area: foto7;
-}
-
-.foto8 {
-    grid-area: foto8;
-}
-
-.foto9 {
-    grid-area: foto9;
-}
-
-.foto10 {
-    grid-area: foto10;
-}
-
-.foto11 {
-    grid-area: foto11;
-}
-
-.foto12 {
-    grid-area: foto12;
-}
-
-
+.card { display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 20px;}
 
 
 
@@ -284,7 +213,6 @@ footer {
 /*---------------- COLUM 1 ----------------- */
 .LogoFooter {
     display: flex;
-    height: 18vh;
     text-decoration: none;
     margin: 10px;
 }
@@ -343,12 +271,15 @@ footer {
     align-items: center;
 }
 
+.btn {margin: 5px;
+width: 10vw;}
+
 
 .derechos {
-    background-image: linear-gradient(to bottom, #bdc3c7, #2c3e50 );
+    background-image: linear-gradient(to bottom, #bdc3c7, #2c3e50);
     text-align: center;
     font-family: 'Baloo Bhaijaan 2', cursive;
-    padding: 20px
+height: 10vh;
 }
 
 @media (max-width: 768px) {
