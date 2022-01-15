@@ -30,6 +30,11 @@ ul {
     justify-content: center;
 }
 
+a:hover {background-color: black;
+    color: white}
+    
+.menu:hover {background-color: black;
+color: white}
 
 
 .logo {
