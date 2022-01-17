@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>DonGato-Tienda</title>
 
+    <!-------- link bootstrap ------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <!-- FUENTE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,33 +63,35 @@
     </main>
 
 
-    <footer>
-        <div class="conteinerUno">
-            <li><a class="LogoFooter" href="/index.html"> <img class="logo" src="img/don gato.jpg" alt="logo"></a></li>
-        </div>
-        <div class="conteinerDos">
-            <h3>Sobre Pagos</h3>
-            <p class="textoPagos">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Sapiente labore vel,
-                ad placeat eius dolorem
-                enim eum reiciendis. <br> Maxime quo officiis vitae similique laudantium autem obcaecati <br>
-                debitis
-                inventore nostrum. Magni.</p>
-        </div>
-        <div class="conteinerTres">
-            <h3>Contacto</h3>
-            <a class="redesSociales" href="https://instagram.com/dongatoind?utm_medium=copy_link">Instagram</a>
-            <a class="redesSociales" href="http://www.facebook.com">facebook</a>
-        </div>
-        <div class="conteinerCuatro">
-            <h3 class="footerNews">Newsleter</h3>
-            <p class="parrafoNew">
-                Suscribite y recibí nuestras promos exclusivas
-            </p>
+    <footer class="conteiner-fluid">
+        <div class="footerEstilos">
+            <a href="/index.html" class="col-md-2 logoFooter"><img src="img/don gato.jpg" alt="don gato"></a>
+
+            <div class="col-md-3 conteinerDos">
+                <h3 class="col">Sobre Pagos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Sapiente labore
+                    vel,
+                    ad placeat eius dolorem
+                    enim eum reiciendis. <br> Maxime quo officiis vitae similique laudantium autem obcaecati <br>
+                    debitis
+                    inventore nostrum. Magni.</p>
+            </div>
+            <div class="col-md-3 conteinerTres">
+                <h3>Contacto</h3>
+                <a class="redesSociales" href="https://instagram.com/dongatoind?utm_medium=copy_link">Instagram</a>
+                <a class="redesSociales" href="http://www.facebook.com">facebook</a>
+            </div>
+            <div class="col-md-3 conteinerCuatro">
+                <h3 class="footerNews">Newsleter</h3>
+                <p class="parrafoNew">
+                    Suscribite y recibí nuestras promos exclusivas
+                </p>
                 <form action="newsletter1" method="GET">
                     <input type="newletter" type="Email" class="newletterEmail" placeholder="Email" required>
                     <input class="btn-negro" type="submit" value="Enviar" required>
                 </form>
             </div>
+        </div>
 
     </footer>
 
@@ -94,7 +100,7 @@
             @Copyright. Todos los derechos reservados 2021
         </p>
     </div>
-    
+
 </body>
 
 </html>

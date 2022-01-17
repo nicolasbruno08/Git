@@ -12,7 +12,7 @@ p {
 h3,
 h2 {
     font-family: 'Baloo Bhaijaan 2', cursive;
-}
+}   
 
 /* ----------------------------------HEADER------------------------------ */
 
@@ -73,12 +73,12 @@ ul {
 
 /* --------------------------------SECCION 1------------------------------------------- */
 
-h1 {
+.donGato {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
     font-family: 'Baloo Bhaijaan 2', cursive;
-    font-size: 2.5em;
+    font-size: 1em;
 }
 
 .d-block {
@@ -307,77 +307,6 @@ h1 {
     align-items: center;
 }
 
-
-
-/* footer { */
-/*     display: flex;
-    background-color: #bdc3c7;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
-} */
-
-/*---------------- COLUM 1 ----------------- */
-/* .LogoFooter {
-    display: flex;
-    height: 20vh;
-    text-decoration: none;
-} */
-
-/* .conteinerUno {
-    display: flex;
-    list-style: none;
-}
- */
-/*--------------- COLUM 2--------------------------- */
-/* .conteinerDos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 12px;
-    max-width: 500px;
-    min-width: 100px;
-}
- */
-
-
-/*-------------- COLUM 3------------------------ */
-
-/* .conteinerTres {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-} */
-
-/* .redesSociales {
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-    font-family: 'Poppins', sans-serif;
-}
- */
-
-
-/* ---------------COLUM 4 ------------------------- */
-/* .conteinerCuatro form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.footerNews {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
- */
 
 .derechos {
     background-image: linear-gradient(to bottom, #bdc3c7, #2c3e50);
