@@ -38,21 +38,23 @@
 
 
     <!-- encabezado -->
-    <header>
-        <a href="index.html"> <img class="logo" src="img/don gato.jpg" alt="logo"></a>
-        <ul>
+    <header class="conteiner-fluid header">
+        <div class="row">
+            <a href="index.html" class="col-md-1"> <img class="logo" src="img/don gato.jpg" alt="logo"></a>
+        <ul class="col-md-10 listas">
             <li><a class="menu" href="tienda.html">Tienda</a></li>
             <li><a class="menu" href="ayuda.html">Ayuda</a></li>
             <li><a class="menu" href="contacto.html">Contacto</a></li>
+            <li><a class="menu" href="./carrito.html">carrito</a></li>
         </ul>
-        <a class="carrito" href="./carrito.html">carrito</a>
+        </div>
 
     </header>
     <!----------------------------------------CONTENIDO PRINCIPAL-------------------------------------------- -->
     <main>
-        <div class="donGato">
-            <h1>Don Gato Indumentaria</h1>
-        </div>
+        
+            <h1 class="donGato">Don Gato Indumentaria</h1>
+        
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
@@ -106,7 +108,7 @@
     </main>
     <!-- ----------------------------------------   FOOTER   -------------------------------------- -->
 
-    <footer class="conteiner-fluid" >
+    <footer class="conteiner-fluid">
         <div class="footerEstilos">
             <a href="/index.html" class="col-md-2 logoFooter"><img src="img/don gato.jpg" alt="don gato"></a>
 

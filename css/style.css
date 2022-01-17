@@ -17,20 +17,17 @@ h2 {
 /* ----------------------------------HEADER------------------------------ */
 
 
-header {
+.header {
     background-image: linear-gradient(to top, #bdc3c7, #2c3e50);
-    height: 20vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
+    display: block;
 }
 
 
-ul {
+ ul {
     display: flex;
     list-style: none;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -40,34 +37,22 @@ ul {
     color: white
 }
 
-.carrito:hover {
-    background-color: black;
-    color: white
-}
-
-
 .logo {
     height: 18vh;
     margin: 10px
 }
 
-.carrito {
+.menu {display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px 30px;
     font-family: 'Fauna One', serif;
     font-size: 1.3em;
     text-decoration: none;
     color: black;
-    display: flex;
-}
+} 
 
 
-.menu {
-    margin: 10px 30px;
-    font-family: 'Fauna One', serif;
-    font-size: 1.3em;
-    text-decoration: none;
-    color: black;
-}
 
 
 
@@ -78,12 +63,13 @@ ul {
     justify-content: center;
     margin: 10px;
     font-family: 'Baloo Bhaijaan 2', cursive;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .d-block {
     height: 110vh;
-    padding: 20px;
+    padding: 10px;
+
 }
 
 
