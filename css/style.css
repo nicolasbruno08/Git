@@ -30,11 +30,13 @@ ul {
     justify-content: center;
 }
 
-a:hover {background-color: black;
-    color: white}
+
     
 .menu:hover {background-color: black;
 color: white}
+
+.carrito:hover{background-color: black;
+    color: white}
 
 
 .logo {
@@ -70,45 +72,9 @@ h1 {
     font-size: 2.5em;
 }
 
-.portadaFoto {
-    display: flex;
-    padding: 10px;
-}
+.d-block {height: 115vh;}
 
 
-
-/*---------------------------- SECCION 2 ----------------------------------- */
-
-/* .seccionDos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-    height: 20vh;
-}
-
-.infoUno {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.infoDos {
-    display: flex;
-    flex-direction: column;
-}
-
-.infoTres {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-.tituloInfo {
-    text-align: center;
-} */
 /*---------------------------- GRID SECCION 2 ----------------------------------- */
 .grid {
     display: grid;
@@ -284,9 +250,8 @@ footer {
 /*---------------- COLUM 1 ----------------- */
 .LogoFooter {
     display: flex;
-    height: 18vh;
+    height: 20vh;
     text-decoration: none;
-    margin: 10px;
 }
 
 .conteinerUno {
@@ -365,3 +330,6 @@ footer {
         display: none;
     }
 }
+
+
+
