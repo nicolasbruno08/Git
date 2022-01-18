@@ -113,7 +113,7 @@
             <a href="/index.html" class="col-md-2 logoFooter"><img src="img/don gato.jpg" alt="don gato"></a>
 
             <div class="col-md-3 conteinerDos">
-                <h3 class="col">Sobre Pagos</h3>
+                <h2 class="col">Sobre Pagos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Sapiente labore
                     vel,
                     ad placeat eius dolorem
@@ -122,17 +122,21 @@
                     inventore nostrum. Magni.</p>
             </div>
             <div class="col-md-3 conteinerTres">
-                <h3>Contacto</h3>
+                <h2>Contacto</h2>
                 <a class="redesSociales" href="https://instagram.com/dongatoind?utm_medium=copy_link">Instagram</a>
                 <a class="redesSociales" href="http://www.facebook.com">facebook</a>
             </div>
             <div class="col-md-3 conteinerCuatro">
-                <h3 class="footerNews">Newsleter</h3>
+                <h2 class="footerNews">Newsleter</h2>
                 <p class="parrafoNew">
                     Suscribite y recibí nuestras promos exclusivas
                 </p>
                 <form action="newsletter1" method="GET">
-                    <input type="newletter" type="Email" class="newletterEmail" placeholder="Email" required>
+                    <!-- <input type="newletter" type="Email" class="newletterEmail" placeholder="Email" required>
+                    <input class="btn-negro" type="submit" value="Enviar" required> -->
+                    <label class="required" for="Email">Email:</label>
+                    <input id="Email" class="input" name="Email" type="text" value="" size="20" />
+                    <span id="Email" class="error_message"></span>
                     <input class="btn-negro" type="submit" value="Enviar" required>
                 </form>
             </div>
