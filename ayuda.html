@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+
     <!-- FUENTE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,22 +37,22 @@
     <header class="conteiner-fluid header">
         <div class="row">
             <a href="index.html" class="col-md-1"> <img class="logo" src="img/don gato.jpg" alt="logo"></a>
-        <ul class="col-md-10 listas">
-            <li><a class="menu" href="tienda.html">Tienda</a></li>
-            <li><a class="menu" href="ayuda.html">Ayuda</a></li>
-            <li><a class="menu" href="contacto.html">Contacto</a></li>
-            <li><a class="menu" href="./carrito.html">carrito</a></li>
-        </ul>
+            <ul class="col-md-10 listas">
+                <li><a class="menu" href="tienda.html">Tienda</a></li>
+                <li><a class="menu" href="ayuda.html">Ayuda</a></li>
+                <li><a class="menu" href="contacto.html">Contacto</a></li>
+                <li><a class="menu" href="./carrito.html">carrito</a></li>
+            </ul>
         </div>
 
     </header>
 
     <main>
-        <div class="donGato">
-            <h1>Ayuda</h1>
-        </div>
 
-<!--         <section>
+            <h1 class="donGato">Ayuda</h1>
+
+
+        <!--         <section>
             <div class="help">
                 <div class="helpUno">
                     <h2>Preguntas frecuentes</h2>
@@ -68,7 +69,179 @@
             </div>
         </section> -->
 
-        
+        <div class="mb-4 col-lg-8 offset-lg-2 acordion">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="flush-headingOne">
+
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Preguntas frecuentes
+                        </button>
+
+                    </h2>
+
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample" style="">
+
+                        <div class="accordion-body">
+
+                            <ul class="list-group list-group-flush">
+
+                                <li class="list-group-item">
+
+                                    <h3>¿Es seguro comprar en este sitio?</h3>
+
+                                    <p>Sí. Trabajamos con la plataforma de pago online líder de América Latina y
+                                        garantiza la seguridad en todas las operaciones que se generen a través de su
+                                        sistema. Más información,
+                                        <a
+                                            href="https://www.mercadopago.com.ar/ayuda/dinero-seguridad-compras_283">aquí.</a>
+                                    </p>
+
+                                </li>
+
+                                <li class="list-group-item">
+
+                                    <h3>¿Dónde retiro los productos?</h3>
+
+                                    <p>Podés retirar en un punto de encuentro establecido o lo podemos enviar por
+                                        correo.</p>
+
+                                </li>
+
+                                <li class="list-group-item">
+
+                                    <h3>¿Puedo comprar varios productos a la vez?</h3>
+
+                                    <p>Sí, podés comprar todos los artículos que desees y pagar el costo de envío por
+                                        todos los productos juntos, en lugar de pagar cada uno por separado.</p>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="flush-headingTwo">
+
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Formas de pago
+                        </button>
+
+                    </h2>
+
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample" style="">
+
+                        <div class="accordion-body">
+
+                            <ul class="list-group list-group-flush">
+
+                                <li class="list-group-item">
+
+                                    <h3>¿Cómo puedo pagar?</h3>
+
+                                    <p>Podés pagar a través de MercadoPago con tarjeta de crédito, en efectivo, a través
+                                        de un cajero automático o con saldo pre-cargado en tu cuenta de MercadoPago</p>
+
+                                </li>
+
+                                <li class="list-group-item">
+
+                                    <h3>¿Hay alguna promoción con tarjeta de crédito?</h3>
+
+                                    <p> <a href="https://www.mercadopago.com.ar/cuotas"> Aquí</a> podrás ver las
+                                        promociones de cuotas de MercadoPago.</p>
+
+                                </li>
+
+                                <li class="list-group-item">
+
+                                    <h3>¿Cuándo se me debita el importe por mi compra?</h3>
+
+                                    <p>Si elegiste pagar con tarjeta de crédito, verás el importe descontado en el
+                                        resumen correspondiente al próximo cierre de tarjeta. Si pagaste con el dinero
+                                        de tu cuenta en MercadoPago, el débito será inmediato.</p>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="flush-headingThree">
+
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Devoluciones
+                        </button>
+
+                    </h2>
+
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample" style="">
+
+                        <div class="accordion-body">
+
+                            <ul class="list-group list-group-flush">
+
+                                <li class="list-group-item">
+
+                                    <h3>¿Puedo devolver o cambiar un producto que compré?</h3>
+
+                                    <p>Si, envianos un mail a <a
+                                            href="nicolasbruno_8@hotmail.com">nicolasbruno_8@hotmail.com</a>
+                                        explicando que producto queres devolver o cambiar y por qué.</p>
+
+                                </li>
+
+                                <li class="list-group-item">
+
+                                    <h3>¿Puedo cancelar mi compra?</h3>
+
+                                    <p>Para cancelar tu compra comunicarte con nosotros llamando al: (011) 1522334455.
+                                        Necesitarás tu número de pedido.</p>
+
+                                </li>
+
+                                <li class="list-group-item">
+
+                                    <h3>¿Si cancelo me devuelven el dinero?</h3>
+
+                                    <p>Si, la devolución del dinero será de manera total y se realizará de acuerdo con
+                                        el método de pago usado para la compra.</p>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
 
     </main>
@@ -113,5 +286,13 @@
 
 
 </body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </html>
