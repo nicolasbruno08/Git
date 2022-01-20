@@ -18,7 +18,7 @@ h2 {
 /* ----------------------------------HEADER------------------------------ */
 
 
-.header {
+header {
     background-image: linear-gradient(to top, #bdc3c7, #2c3e50);
     display: block;
 }
@@ -35,7 +35,11 @@ h2 {
 
 .menu:hover {
     background-color: black;
-    color: white
+    color: white;
+    border-radius: 20px;
+}
+
+.menu:active { 
 }
 
 .logo {
@@ -78,7 +82,6 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     grid-template-rows: repeat(1, 1fr);
-
     width: 90%;
     margin: 2rem auto;
 }
@@ -120,7 +123,7 @@ h2 {
     display: flex;
     font-family: 'Baloo Bhaijaan 2', cursive;
     padding: 30px;
-    margin: 30px;
+    margin: 10px;
     border: solid;
 
 }
@@ -134,7 +137,7 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
@@ -143,7 +146,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
-    margin: 20px;
+/*     margin: 20px; */
     grid-auto-flow: row;
     grid-template-areas:
         "foto1 foto2 foto3 foto4"
@@ -230,7 +233,7 @@ h2 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 50px;
+/*     margin-bottom: 50px; */
 }
 
 .redesSociales {
@@ -268,7 +271,7 @@ h2 {
     padding: 10px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     header {
         flex-direction: column;
         flex-wrap: wrap;
@@ -281,5 +284,18 @@ h2 {
     .portadaFoto {
         display: none;
     }
+} */
+
+@media (max-width: 768px) {
+    .carouselGato {display: none;}
 }
 
+@media (max-width: 768px){
+    .grid { display: grid;
+    grid-template-columns: auto;}
+}
+
+@media (max-width: 768px){
+    .footerEstilos { display: flex;
+    flex-direction: column;}
+}
